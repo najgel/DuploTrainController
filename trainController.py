@@ -6,6 +6,7 @@ from bricknil.sensor import DuploTrainMotor, DuploSpeedSensor, DuploSpeaker, LED
 from bricknil.const import Color
 import logging
 from inputs import get_gamepad
+# test
 
 @attach(LED, name='led')
 @attach(DuploSpeaker, name='speaker')
